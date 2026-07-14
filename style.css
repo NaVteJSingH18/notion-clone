@@ -621,6 +621,7 @@ nav{
     width:29%;
     height: 460px;
      position: relative;  
+     overflow: hidden;  
     border-radius: 10px;
 }
 .edge1card{
@@ -706,9 +707,19 @@ color: white;
      object-fit: cover;
     border-radius: 10px;
     opacity: .4 ;
-    width:405px;
+    width:100%;
+    height: 100%;
+    transition: transform 0.4s ease;
 }
-
+.edge1card img:hover{
+     transform: scale(1.1);
+}
+.edge2card img:hover{
+     transform: scale(1.1);
+}
+.edge3card img:hover{
+       transform: scale(1.1);
+}
 .get-started{
     
     margin-top: 40px;
