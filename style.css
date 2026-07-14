@@ -712,13 +712,13 @@ color: white;
     transition: transform 0.4s ease;
 }
 .edge1card img:hover{
-     transform: scale(1.1);
+     transform: scale(1.05);
 }
 .edge2card img:hover{
-     transform: scale(1.1);
+     transform: scale(1.05);
 }
 .edge3card img:hover{
-       transform: scale(1.1);
+       transform: scale(1.05);
 }
 .get-started{
     
